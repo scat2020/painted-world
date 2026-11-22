@@ -1,0 +1,402 @@
+{
+  "url": "https://x.com/rewind02/status/2122298720955830563",
+  "id": "2122298720955830563",
+  "text": "build a painted 3D world in the browser with Opus 5.5 + Three.js,,,\n\nevery frame looks painted, and when the sun goes down it turns from gouache into oil paint\n\nhere’s the workflow:\n\n- step 1: opus 5.5: “plan a walk: forest path > open hill > sunset over the sea”\n- step 2: three.js: opus builds the terrain, path and sea from code, with no models\n- step 3: three.js: procedural trees, grass and flowers with InstancedMesh\n- step 4: three.js: the hero props from basic shapes: blossom tree, floating islands, kid, kite\n- step 5: custom shaders: god rays, fog, birds, fireflies and kite string sway\n- step 6: custom shaders: a paint post-pass that turns every frame into brushstrokes\n- step 7: custom shaders: tie the brush style to sun height: gouache by day, oil at sunset\n- step 8: three.js: a camera path along the walk, with the sun setting as you go\n\nwho does what:\n\n> opus 5.5: writes every mesh, shader and camera move\n> three.js: renders the world\n> the paint shader: makes it look like a painting\n> you: judge each frame like a painting, not a game\nthe brushstrokes hide what code-built shapes can’t fake",
+  "raw_text": {
+    "text": "build a painted 3D world in the browser with Opus 5.5 + Three.js,,,\n\nevery frame looks painted, and when the sun goes down it turns from gouache into oil paint\n\nhere’s the workflow:\n\n- step 1: opus 5.5: “plan a walk: forest path > open hill > sunset over the sea”\n- step 2: three.js: opus builds the terrain, path and sea from code, with no models\n- step 3: three.js: procedural trees, grass and flowers with InstancedMesh\n- step 4: three.js: the hero props from basic shapes: blossom tree, floating islands, kid, kite\n- step 5: custom shaders: god rays, fog, birds, fireflies and kite string sway\n- step 6: custom shaders: a paint post-pass that turns every frame into brushstrokes\n- step 7: custom shaders: tie the brush style to sun height: gouache by day, oil at sunset\n- step 8: three.js: a camera path along the walk, with the sun setting as you go\n\nwho does what:\n\n> opus 5.5: writes every mesh, shader and camera move\n> three.js: renders the world\n> the paint shader: makes it look like a painting\n> you: judge each frame like a painting, not a game\nthe brushstrokes hide what code-built shapes can’t fake",
+    "display_text_range": [
+      0,
+      1113
+    ],
+    "facets": [
+      {
+        "type": "media",
+        "indices": [
+          280,
+          303
+        ],
+        "id": "2122298565661708288",
+        "display": "pic.x.com/5jTjcL6nnp",
+        "original": "https://t.co/5jTjcL6nnp",
+        "replacement": "https://x.com/rewind02/status/2122298720955830563/video/1"
+      }
+    ]
+  },
+  "author": {
+    "screen_name": "rewind02",
+    "url": "https://x.com/rewind02",
+    "id": "1593536473428623361",
+    "followers": 8596,
+    "following": 999,
+    "likes": 57852,
+    "media_count": 1460,
+    "name": "rewind",
+    "description": "AI systems & workflows | Running distribution via AI UGC",
+    "raw_description": {
+      "text": "AI systems & workflows | Running distribution via AI UGC",
+      "facets": []
+    },
+    "location": "",
+    "banner_url": "https://pbs.twimg.com/profile_banners/1593536473428623361/1774300729",
+    "avatar_url": "https://pbs.twimg.com/profile_images/2036190950545084416/aHeLH6m__200x200.jpg",
+    "joined": "Fri Nov 18 09:28:09 +0000 2022",
+    "protected": false,
+    "website": null,
+    "verification": {
+      "verified": true,
+      "verified_at": null,
+      "type": "individual"
+    },
+    "avatar_color": null
+  },
+  "replies": 19,
+  "retweets": 25,
+  "likes": 278,
+  "bookmarks": 243,
+  "quotes": 2,
+  "created_at": "Mon Nov 16 12:00:20 +0000 2026",
+  "created_timestamp": 1794830420,
+  "possibly_sensitive": false,
+  "views": 21869,
+  "is_note_tweet": true,
+  "community_note": null,
+  "lang": "en",
+  "replying_to": null,
+  "replying_to_status": null,
+  "media": {
+    "all": [
+      {
+        "id": "2122298565661708288",
+        "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/1280x720/kNKetFgIc3iM8Rxt.mp4?tag=29",
+        "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122298565661708288/img/KWPH0IHFQuaUsNyo.jpg",
+        "duration": 114.133,
+        "width": 1280,
+        "height": 720,
+        "format": "video/mp4",
+        "type": "video",
+        "formats": [
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/pl/Ec_rTs7sFNTbYJOi.m3u8?tag=29&v=cfc",
+            "container": "m3u8"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/480x270/XRIbRpd9AdM3FgK_.mp4?tag=29",
+            "bitrate": 256000,
+            "container": "mp4",
+            "codec": "h264"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/640x360/veyexE6u1xFT_Ubp.mp4?tag=29",
+            "bitrate": 832000,
+            "container": "mp4",
+            "codec": "h264"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/1280x720/kNKetFgIc3iM8Rxt.mp4?tag=29",
+            "bitrate": 2176000,
+            "container": "mp4",
+            "codec": "h264"
+          }
+        ],
+        "publisher": null,
+        "variants": [
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/pl/Ec_rTs7sFNTbYJOi.m3u8?tag=29&v=cfc",
+            "bitrate": 0,
+            "content_type": "application/x-mpegURL"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/480x270/XRIbRpd9AdM3FgK_.mp4?tag=29",
+            "bitrate": 256000,
+            "content_type": "video/mp4"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/640x360/veyexE6u1xFT_Ubp.mp4?tag=29",
+            "bitrate": 832000,
+            "content_type": "video/mp4"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/1280x720/kNKetFgIc3iM8Rxt.mp4?tag=29",
+            "bitrate": 2176000,
+            "content_type": "video/mp4"
+          }
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "id": "2122298565661708288",
+        "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/1280x720/kNKetFgIc3iM8Rxt.mp4?tag=29",
+        "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2122298565661708288/img/KWPH0IHFQuaUsNyo.jpg",
+        "duration": 114.133,
+        "width": 1280,
+        "height": 720,
+        "format": "video/mp4",
+        "type": "video",
+        "formats": [
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/pl/Ec_rTs7sFNTbYJOi.m3u8?tag=29&v=cfc",
+            "container": "m3u8"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/480x270/XRIbRpd9AdM3FgK_.mp4?tag=29",
+            "bitrate": 256000,
+            "container": "mp4",
+            "codec": "h264"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/640x360/veyexE6u1xFT_Ubp.mp4?tag=29",
+            "bitrate": 832000,
+            "container": "mp4",
+            "codec": "h264"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/1280x720/kNKetFgIc3iM8Rxt.mp4?tag=29",
+            "bitrate": 2176000,
+            "container": "mp4",
+            "codec": "h264"
+          }
+        ],
+        "publisher": null,
+        "variants": [
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/pl/Ec_rTs7sFNTbYJOi.m3u8?tag=29&v=cfc",
+            "bitrate": 0,
+            "content_type": "application/x-mpegURL"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/480x270/XRIbRpd9AdM3FgK_.mp4?tag=29",
+            "bitrate": 256000,
+            "content_type": "video/mp4"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/640x360/veyexE6u1xFT_Ubp.mp4?tag=29",
+            "bitrate": 832000,
+            "content_type": "video/mp4"
+          },
+          {
+            "url": "https://video.twimg.com/amplify_video/2122298565661708288/vid/avc1/1280x720/kNKetFgIc3iM8Rxt.mp4?tag=29",
+            "bitrate": 2176000,
+            "content_type": "video/mp4"
+          }
+        ]
+      }
+    ]
+  },
+  "quote": {
+    "url": "https://x.com/rewind02/status/2121991760825995575",
+    "id": "2121991760825995575",
+    "text": "build a painted 3D world in the browser with Opus 5.5 + Three.js,,,\n\nevery frame looks painted, and when the sun goes down it turns from gouache into oil paint\n\nhere’s the workflow:\n\n- step 1: opus 5.5: “plan a walk: forest path > open hill > sunset over the sea”\n- step 2: three.js: opus builds the terrain, path and sea from code, with no models\n- step 3: three.js: procedural trees, grass and flowers with InstancedMesh\n- step 4: three.js: the hero props from basic shapes: blossom tree, floating islands, kid, kite\n- step 5: custom shaders: god rays, fog, birds, fireflies and kite string sway\n- step 6: custom shaders: a paint post-pass that turns every frame into brushstrokes\n- step 7: custom shaders: tie the brush style to sun height: gouache by day, oil at sunset\n- step 8: three.js: a camera path along the walk, with the sun setting as you go \n\nwho does what:\n\n> opus 5.5: writes every mesh, shader and camera move\n> three.js: renders the world\n> the paint shader: makes it look like a painting\n> you: judge each frame like a painting, not a game\n \nthe brushstrokes hide what code-built shapes can’t fake",
+    "raw_text": {
+      "text": "build a painted 3D world in the browser with Opus 5.5 + Three.js,,,\n\nevery frame looks painted, and when the sun goes down it turns from gouache into oil paint\n\nhere’s the workflow:\n\n- step 1: opus 5.5: “plan a walk: forest path > open hill > sunset over the sea”\n- step 2: three.js: opus builds the terrain, path and sea from code, with no models\n- step 3: three.js: procedural trees, grass and flowers with InstancedMesh\n- step 4: three.js: the hero props from basic shapes: blossom tree, floating islands, kid, kite\n- step 5: custom shaders: god rays, fog, birds, fireflies and kite string sway\n- step 6: custom shaders: a paint post-pass that turns every frame into brushstrokes\n- step 7: custom shaders: tie the brush style to sun height: gouache by day, oil at sunset\n- step 8: three.js: a camera path along the walk, with the sun setting as you go \n\nwho does what:\n\n> opus 5.5: writes every mesh, shader and camera move\n> three.js: renders the world\n> the paint shader: makes it look like a painting\n> you: judge each frame like a painting, not a game\n \nthe brushstrokes hide what code-built shapes can’t fake",
+      "display_text_range": [
+        0,
+        1116
+      ],
+      "facets": [
+        {
+          "type": "media",
+          "indices": [
+            280,
+            303
+          ],
+          "id": "2121991666647109632",
+          "display": "pic.x.com/trCouTTeVH",
+          "original": "https://t.co/trCouTTeVH",
+          "replacement": "https://x.com/rewind02/status/2121991760825995575/video/1"
+        }
+      ]
+    },
+    "author": {
+      "screen_name": "rewind02",
+      "url": "https://x.com/rewind02",
+      "id": "1593536473428623361",
+      "followers": 8596,
+      "following": 999,
+      "likes": 57852,
+      "media_count": 1460,
+      "name": "rewind",
+      "description": "AI systems & workflows | Running distribution via AI UGC",
+      "raw_description": {
+        "text": "AI systems & workflows | Running distribution via AI UGC",
+        "facets": []
+      },
+      "location": "",
+      "banner_url": "https://pbs.twimg.com/profile_banners/1593536473428623361/1774300729",
+      "avatar_url": "https://pbs.twimg.com/profile_images/2036190950545084416/aHeLH6m__200x200.jpg",
+      "joined": "Fri Nov 18 09:28:09 +0000 2022",
+      "protected": false,
+      "website": null,
+      "verification": {
+        "verified": true,
+        "verified_at": null,
+        "type": "individual"
+      },
+      "avatar_color": null
+    },
+    "replies": 29,
+    "retweets": 14,
+    "likes": 290,
+    "bookmarks": 221,
+    "quotes": 5,
+    "created_at": "Sun Nov 15 15:40:35 +0000 2026",
+    "created_timestamp": 1794757235,
+    "possibly_sensitive": false,
+    "views": 20603,
+    "is_note_tweet": true,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+      "all": [
+        {
+          "id": "2121991666647109632",
+          "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1920x1080/2pyrfdiorL0_hV6b.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121991666647109632/img/HIpRXCV-OiPDt3Fl.jpg",
+          "duration": 28,
+          "width": 1920,
+          "height": 1080,
+          "format": "video/mp4",
+          "type": "video",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/pl/Hw_WT_cXgmiP07Nz.m3u8?tag=29&v=cfc",
+              "container": "m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/480x270/HARfyWrJuLl_tPnP.mp4?tag=29",
+              "bitrate": 256000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/640x360/2-vQjmzIY8hKzxrG.mp4?tag=29",
+              "bitrate": 832000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1280x720/2oAmW73oVybh351J.mp4?tag=29",
+              "bitrate": 2176000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1920x1080/2pyrfdiorL0_hV6b.mp4?tag=29",
+              "bitrate": 10368000,
+              "container": "mp4",
+              "codec": "h264"
+            }
+          ],
+          "publisher": null,
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/pl/Hw_WT_cXgmiP07Nz.m3u8?tag=29&v=cfc",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/480x270/HARfyWrJuLl_tPnP.mp4?tag=29",
+              "bitrate": 256000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/640x360/2-vQjmzIY8hKzxrG.mp4?tag=29",
+              "bitrate": 832000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1280x720/2oAmW73oVybh351J.mp4?tag=29",
+              "bitrate": 2176000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1920x1080/2pyrfdiorL0_hV6b.mp4?tag=29",
+              "bitrate": 10368000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ],
+      "videos": [
+        {
+          "id": "2121991666647109632",
+          "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1920x1080/2pyrfdiorL0_hV6b.mp4?tag=29",
+          "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2121991666647109632/img/HIpRXCV-OiPDt3Fl.jpg",
+          "duration": 28,
+          "width": 1920,
+          "height": 1080,
+          "format": "video/mp4",
+          "type": "video",
+          "formats": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/pl/Hw_WT_cXgmiP07Nz.m3u8?tag=29&v=cfc",
+              "container": "m3u8"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/480x270/HARfyWrJuLl_tPnP.mp4?tag=29",
+              "bitrate": 256000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/640x360/2-vQjmzIY8hKzxrG.mp4?tag=29",
+              "bitrate": 832000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1280x720/2oAmW73oVybh351J.mp4?tag=29",
+              "bitrate": 2176000,
+              "container": "mp4",
+              "codec": "h264"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1920x1080/2pyrfdiorL0_hV6b.mp4?tag=29",
+              "bitrate": 10368000,
+              "container": "mp4",
+              "codec": "h264"
+            }
+          ],
+          "publisher": null,
+          "variants": [
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/pl/Hw_WT_cXgmiP07Nz.m3u8?tag=29&v=cfc",
+              "bitrate": 0,
+              "content_type": "application/x-mpegURL"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/480x270/HARfyWrJuLl_tPnP.mp4?tag=29",
+              "bitrate": 256000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/640x360/2-vQjmzIY8hKzxrG.mp4?tag=29",
+              "bitrate": 832000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1280x720/2oAmW73oVybh351J.mp4?tag=29",
+              "bitrate": 2176000,
+              "content_type": "video/mp4"
+            },
+            {
+              "url": "https://video.twimg.com/amplify_video/2121991666647109632/vid/avc1/1920x1080/2pyrfdiorL0_hV6b.mp4?tag=29",
+              "bitrate": 10368000,
+              "content_type": "video/mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "twitter_card": "player",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+  },
+  "twitter_card": "player",
+  "color": null,
+  "provider": "twitter",
+  "reposted_by": null
+}
